@@ -1,2 +1,14 @@
 fork from extjs TaskRunner
 Open Source License with the GNU GPL license v3. 
+Usage:
+
+var task = {
+    run: function(){
+       //do something
+    },
+    interval: 1000 //1 second
+}
+//start task
+$.TaskMgr.start(task);
+//stop task
+$.TaskMgr.stop(task);
